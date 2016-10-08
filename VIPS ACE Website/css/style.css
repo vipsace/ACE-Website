@@ -1,0 +1,333 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:200,300,400,600,300|Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300,700,400);
+*{
+	margin: 0;
+	padding: 0;
+	transition:all .5s ease;
+}
+::selection{
+	color: white;
+	background: #e82136;
+}
+#top{
+	background: url(../imgs/hero.jpg) no-repeat;
+	width: 100%;
+	background-attachment: fixed;
+	height: 100vh;
+	background-size: cover;
+}
+
+#wrap{
+	width: 70%;
+	margin:0 auto;
+}
+header{
+	padding-top: 30px;
+}
+
+.text{
+	color: white;
+	text-align: center;
+	font-weight: 200;
+	font-size: 80px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	font-family: "Raleway";
+}
+
+.r{
+	color:#e82136;
+	font-weight: 600;
+}
+.lower{
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.logo{
+	text-decoration: none;
+	margin-left: 40px;
+	display: inline-block;
+	margin-top: 20px;
+}
+.top_text{
+	
+	margin-top: 15vh;
+}
+.deatails_text 
+{
+	margin-top: 7vh !important;
+}
+
+.menu {
+	float:right;
+	margin-top: 40px;
+}
+
+.menu li{
+	display: inline;
+}
+
+.menu a{
+	color: white;
+	font-family: "Montserrat";
+	font-size: 15px;
+	display: inline-block;
+	height: 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-right: 30px;
+	color:#aaa;
+}
+.menu a:hover{
+	color:#fff;
+	border-bottom: 1px solid #e82136;
+	-webkit-transition:300ms;
+	-moz-transition:300ms;
+
+}
+
+
+.button{
+	margin-left: 20px;
+	margin-top: 100px;
+	display: inline-block;
+	width: 150px;
+	color: white;
+	border: 3px solid white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Montserrat";
+}
+.button:hover{
+background: rgba(0,0,0,0.5);
+border:3px solid #e82136;
+color:#e82136;
+}
+h1{
+	font-family: "Raleway";
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 3.4em;
+	font-weight: 400;
+	letter-spacing: -1px;
+}
+h1:after{
+	content:"";
+	margin:0 auto;
+	display: block;
+	width: 80px;
+	margin-top: 20px;
+	border-bottom: 5px solid #e82136;
+}
+
+#about{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	color: #404041;
+	letter-spacing: 0px;
+	
+}
+
+#about p{
+	font-size: 18px;
+	margin-right: 50px;
+	height:00px;
+	text-align: justify;
+	display: inline-block;
+	margin-top: 0px;
+	margin-top: 50px;
+	width: 500px;
+	font-weight: 400;
+	font-family: "Roboto Slab";
+}
+#about img{
+display: inline-block;
+margin-top: 20px;
+}
+#content{
+	width: 80%;	
+}
+
+#members{
+	color:white;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	font-family: "Raleway";
+	/*background: url("../imgs/bg_ventures.jpg");*/
+	background: #111;
+}
+
+
+.project_dabba{
+	display: inline-block;
+	margin: 20px;
+	position: relative;
+	width:250px;
+	border:1px solid #bbb;
+	height: 400px;
+	font-size:13px;
+}
+footer{
+	width: 100%;
+	background: #111;
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;	
+	font-family: "Montserrat";
+}
+
+
+#content{
+	width: 80%;
+}
+
+
+.project_dabba img{
+	-webkit-filter:grayscale(100%);
+}
+
+.project_dabba:hover>img{
+		-webkit-filter:grayscale(0%);
+}
+
+.button_cont{
+	position: absolute;
+	bottom:0;
+	left:25%;
+	display: block;
+	width:100px;
+	background: #121212;
+	padding:10px;
+	margin-bottom: -20px;
+}
+.button_cont a{
+	color:white;
+	font-weight: 900;
+	text-decoration: none;
+	border:1px solid white;
+	padding:10px;
+	letter-spacing: 2px;
+}
+.title{font-family: "Raleway";font-size:20px;font-weight: 900;letter-spacing: 3px;display:block;margin-top:10px;}
+.desc{	padding:20px;
+display: block;
+ font-family: "Roboto Slab";}
+
+ .button_cont a:hover{
+ 	color:black;
+ 	border:1px solid black;
+ 	background: #e82136;
+ }
+
+ #join_us{
+ 	background: #e82136;	
+ 	color:white;
+ 	font-family: "Roboto Slab";
+ 	letter-spacing: 2px;
+ 	word-spacing: 2px;
+ 	text-align: center;
+ 	padding-top: 25px;
+ 	padding-bottom: 25px;
+ 	font-size:20px;
+ 	font-weight: 900;
+ }
+
+ #join_us a{color:#111;
+text-decoration: none;
+letter-spacing: 0;
+word-spacing: 0;
+display: block;
+border:1px solid #c3182a;
+padding: 10px;
+width: 230px;
+color:#810915;
+margin: 0 auto;
+margin-top: 20px;
+text-transform: uppercase;
+font-family: "Raleway";
+}
+ #join_us a:hover{border:1px solid #810915;}
+
+ #contact{
+ 	background: #f5f5f5;
+ 	font-family: "Raleway";
+ 	padding-bottom: 30px;
+ 	padding-top: 30px;
+ 	font-size: 13px;
+ 	font-weight: 900;
+ 	color:#666;
+
+ }
+
+ #contact p{
+ 	letter-spacing: 0px;
+ 	font-size: 15px;
+ 	text-transform: uppercase;
+ 	font-weight: 400;
+ 	font-family: "Roboto Slab";
+ }
+ .icon-facebook-1,.icon-twitter{
+ 	color:#e82136;
+ 	text-decoration: none;
+ 	font-size: 22px;
+ 	margin: 10px;
+ 	display: inline-block;
+ }
+
+ .member_wala{
+ 	background: url("../imgs/header_details.jpg") !important;
+ 	height: 40em !important;
+ }
+
+ .member{
+  width: 300px;
+  height: 100px;
+  background: #FFF;
+  border: 1px solid #EEE;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px #EEE;
+  margin: 5px;
+  display: inline-block;
+  overflow: hidden;
+ }
+.member img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  position: relative;
+  top: 18px;
+  left: 20px;
+  border: 2px solid #DDD;
+}
+.member .nameholder {
+  position: relative;
+  top: -32px;
+  left: 100px;
+  font-family: 'Raleway', sans-serif;
+  color: #555;
+  font-weight: 500;
+  font-size: 1em;
+}
+.member .nameholder b {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1em;
+  color: #333;
+}
+
+
+#mem{
+	background: #f7f7f7;
+	padding-top:20px;
+	padding-bottom: 20px;
+}
+#mem_wrap{
+	margin: 0 auto;
+width: 60%;
+position: relative;
+}
