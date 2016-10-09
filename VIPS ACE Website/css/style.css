@@ -151,6 +151,15 @@ margin-top: 20px;
 	width: 80%;	
 }
 
+#projects{
+	color:white;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	font-family: "Raleway";
+	/*background: url("../imgs/bg_ventures.jpg");*/
+	background: #111;
+}
+
 #members{
 	color:white;
 	padding-top: 70px;
